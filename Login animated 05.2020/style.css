@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: linear-gradient(120deg, #3498db, #8e44ad);
+  min-height: 100vh; /* что это такое? */ 
+}
+
+.box {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* padding: 150px 0; */
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  outline: none;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: block;
+  border-bottom: 1px solid gray;
+  width: 250px;
+  margin-top: 25px;  
+}
+
+.box input[placeholder="Username"],
+.box input[placeholder="Password"] {
+text-align: left;
+padding-bottom: 10px;
+}
+
+.box input[type="submit"] {
+  width: 250px;
+  height: 35px;
+  border: none;
+  background: #3E85D3;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.box p {
+  font-size: 14px;
+}
+
+.box h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: 400;
+}
+
+.box input[onfocus="this.placeholder=''"] {
+  text-align: left;
+  padding-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
