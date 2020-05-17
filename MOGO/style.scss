@@ -248,18 +248,35 @@ hr {
 
 // LINE
 .line {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid gray;
   display: block;
-  
+  margin: 50px 0;  
 }
 
+// SECTION 4
+.section--devices{
+  background: url("img/section4/Layer 45.png") center no-repeat;
+  background-size: cover;
 
+}
 
+.devices {
+width: 100%;
+max-width: 600px;
+margin: 0 auto;
+position: relative;
 
+& .devices__item {
+display: block;
+}
 
-
-
-
+& .devices__item--iphone {
+position: absolute;
+bottom: -80px;
+right: 0;
+z-index: 1;
+}
+}
 
 
 
